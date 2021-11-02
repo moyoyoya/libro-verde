@@ -28,7 +28,7 @@
         </div>
         <div class="navbar-menu" id="navbar-menu" v-bind:class="{'is-active': showMobileMenu}">
             <div class="navbar-end">
-                <router-link to="/about" class="navbar-item">Libro verde</router-link>
+                <router-link to="/mapa" class="navbar-item">Libro verde</router-link>
                 <router-link to="/mapa" class="navbar-item">Mapa</router-link>
                 <a href="https://ampi.org/" class="navbar-item">AMPI</a>
                 <a href="https://ampi.org/contacto/" class="navbar-item">Contacto</a>
