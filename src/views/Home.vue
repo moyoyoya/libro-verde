@@ -1,3 +1,10 @@
+  <style>
+    body {
+      background-image: url("../assets/home-background.png");
+    }
+
+</style>
+
 <template>
   <div class="home">
     <h1  class="title is-2" >Tú guía de precios</h1>
@@ -15,9 +22,3 @@ export default {
   }
 }
 </script>
-<style>
-    body {
-      background-image: url("../assets/home-background.png");
-    }
-
-</style>

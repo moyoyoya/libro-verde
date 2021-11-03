@@ -144,8 +144,10 @@
     <div class="tile is-parent has-text-centered is-hidden-touch">
        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240863.6849576318!2d-99.28369714200089!3d19.39100383687723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2sMexico%20City%2C%20CDMX!5e0!3m2!1sen!2smx!4v1635733006330!5m2!1sen!2smx" width="580" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
-    <div class="tile is-parent has-text-centered is-hidden-desktop">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240863.6849576318!2d-99.28369714200089!3d19.39100383687723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2sMexico%20City%2C%20CDMX!5e0!3m2!1sen!2smx!4v1635733006330!5m2!1sen!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div class="tile is-hidden-desktop">
+      <figure class="image is-16by9">
+      <iframe class="has-ratio" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240863.6849576318!2d-99.28369714200089!3d19.39100383687723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2sMexico%20City%2C%20CDMX!5e0!3m2!1sen!2smx!4v1635733006330!5m2!1sen!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </figure>
     </div>
   </div>
 </form>
