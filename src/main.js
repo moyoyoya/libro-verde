@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 import * as VueGoogleMaps from "vue2-google-maps" // Import package
 
-createApp(App).use(store).use(router).use(Oruga, bulmaConfig).mount('#app')
+createApp(App).use(store).use(router).mount('#app')
 
 
 Vue.config.productionTip = false
@@ -36,7 +36,3 @@ const options = {
   windowTitle: window.document.title, // override the window title
 }
 
-Vue.use(VueHtmlToPaper, options);
-
-// or, using the defaults with no stylesheet
-Vue.use(VueHtmlToPaper);
