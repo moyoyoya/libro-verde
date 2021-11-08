@@ -6,7 +6,7 @@
   <h5><span></span></h5>
 </div>
   <div class="field">
-    <h5 class="title is-4">Min: $1.00</h5>
+    <h5 class="title is-4">Min: $200,000.00</h5>
     <h5 class="title is-4 has-text-primary">Promedio: $8,384,133.56</h5>
     <h5 class="title is-4 ">Max: $94,600,000.00</h5>
   </div>
@@ -19,9 +19,9 @@
   <h5><span></span></h5>
 </div>
   <div class="field">
-    <h5 class="title is-4">Min: $1.00</h5>
-    <h5 class="title is-4 has-text-primary">Promedio: $171,997.62</h5>
-    <h5 class="title is-4 ">Max: $41,300,000.00</h5>
+    <h5 class="title is-4">Min: $5,000.00</h5>
+    <h5 class="title is-4 has-text-primary">Promedio: $17,997.62</h5>
+    <h5 class="title is-4 ">Max: $300,000.00</h5>
   </div>
 </div>
 </form>
@@ -151,7 +151,16 @@
     </div>
   </div>
 </form>
-
+<div class="container">
+  <form>
+    <div class="field">
+  <button class="button is-primary is-pulled-right">Imprimir como PDF</button>
+    </div>
+    <div class="field">
+  <button class="button is-primary is-pulled-left" @click="goToFilters">Mas Filtros</button>
+    </div>
+  </form>
+</div>
 </template>
 
 <script>
@@ -160,6 +169,11 @@ export default {
 	components: {
 		Icon,
 	},
+    methods: {
+    goToFilters() {
+      this.$router.push('/filtros');
+    }
+  },
 };
 </script>
 

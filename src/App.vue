@@ -51,6 +51,7 @@
         data () {
             return {
                 showMobileMenu: false,
+                printing: false,
             }
         }
     }

@@ -1,5 +1,7 @@
 
 @import '../../../node_modules/bulma/sass/utilities/initial-variables.sass';
+@import '~@creativebulma/bulma-collapsible';
+
 
 html, body {
 font-family: Calibri, sans-serif;
@@ -7,3 +9,5 @@ font-size: 16px;
 color: #dfdfdf;
 title-color: #dfdfdf;
 background-color: black; }
+
+
