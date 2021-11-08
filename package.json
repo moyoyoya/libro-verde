@@ -1,16 +1,12 @@
 {
   "name": "libroverde.vue",
   "version": "0.1.0",
-  "main": "css/mystyles.scss",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "postinstall": "npm run build",
-    "start": "node server.js",
-  "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
-  "css-watch": "npm run css-build -- --watch",
-  "start": "npm run css-watch"
+    "start": "node server.js"
   },
   "dependencies": {
     "@creativebulma/bulma-collapsible": "^1.0.4",

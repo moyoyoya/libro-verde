@@ -3,12 +3,6 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import * as VueGoogleMaps from "vue2-google-maps" // Import package
-import Vue from 'vue';
-import VueHtmlToPaper from 'vue-html-to-paper';
-import Oruga from '@oruga-ui/oruga-next'
-import { bulmaConfig } from '@oruga-ui/theme-bulma'
-import bulmaCollapsible from '@creativebulma/bulma-collapsible';
-import '@oruga-ui/theme-bulma/dist/bulma.css'
 
 createApp(App).use(store).use(router).use(Oruga, bulmaConfig).mount('#app')
 
